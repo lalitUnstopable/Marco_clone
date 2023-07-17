@@ -1,0 +1,195 @@
+.arrow{
+    color:white;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.heading1{
+    font-size: 36px;
+    font-weight: 600;
+    font-weight: none;
+    position: relative;
+    top:100px;
+}
+
+.box_1 h1{
+    text-align: center;
+}
+
+.box_1{
+    text-align: center;
+    margin-top: 0px;
+}
+
+.smash{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.about_back_image{
+    margin-top: -20px;
+    height:350px;
+    background: url("../Media/bg_image.jpg")no-repeat center center/cover;
+}
+
+.cont_21 {
+    height: 450px;
+    width: 70%;
+    margin-top: 20vh;
+  }
+  
+  .col_21 {
+    height: 450px;
+    width: 50%;
+    padding-top: 40px;
+  }
+
+.col_22 { 
+    height: 450px;
+    width: 30%;
+    position: relative;
+    left:60px;
+    padding:20px;
+    background: url("../Media/about-img.jpg") no-repeat center center/cover;
+}
+
+
+.div_81 {
+    height: 450px;
+    width: 80%;
+    margin: auto;
+    text-align:  center;
+    padding: 50px;
+    margin-top: -20px;
+  }
+  
+  .div_81 h1 {
+    color: #222;
+    font-size: 36px;
+    font-weight: 600;
+  }
+  
+  .div_81 p{
+    margin-top: -20px;
+    color: #777;
+    font-family: "Poppins",sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em; 
+  }
+  
+  .blog1{
+    width:500px;
+    border:none;
+    height:480px;
+    margin-left: 70px;
+    margin-top: 50px;
+  }
+  
+  .card_body{
+   text-align: left;  
+   padding:20px;
+  }
+  
+  .card_body h5{
+    margin-top: 10px;
+    padding:10px;
+    text-align: left;
+    background-color: black;
+    color:white;
+    width:200px;
+    font-size: 15px;
+  }
+  
+  .card_body .p_1{
+    margin-top: 10px;
+    color:black;
+    font-weight: bold;
+  }
+  
+  .card_body .p_2{
+    margin-top: 10px;
+    text-align:left ;
+    font-weight: bold;
+  }
+  
+  .items:hover{
+    cursor: pointer;
+  }
+
+  #carouselExampleCaptions{
+    margin-top: 400px;
+    position: relative;
+    top:150px;
+  }
+  
+
+  .slider2 {
+    
+    height: 450px;
+    background: url("../Media/review-bg.jpg") no-repeat center center/cover;
+    background-size: 100% 100%;
+  }
+
+  .about_footer{
+    margin-top:-50px;
+  }
+
+  @media only screen and (max-width:400px){
+    
+  .cont_21 {
+    height: 450px;
+    width: 80%;
+    margin-top: 15vh;
+  }
+
+  .col_21 h2{
+    margin-top: -40px;
+  }
+
+  .col_21 p{
+    margin-top: -60px;;
+  }
+
+  .col_21 .btn_1{
+    color: white;
+    padding: 10px 28px;
+    border: none;
+    margin-top: 100px;
+    background-color: #f42f2c;
+  }
+
+
+
+  .col_22 { 
+    height: 450px;
+    width: 30%;
+    position: relative;
+    left:0px;
+    padding:20px;
+    background: url("../Media/about-img.jpg") no-repeat center center/cover;
+}
+
+.div_81{
+  margin-top: 380px;
+}
+
+.blog1{
+  margin-top: 150px;
+  position: relative;
+  right:128px;
+}
+
+.slider2{
+  display: none;
+}
+
+.about_footer{
+  margin-top: -250px;
+}
+
+}
+
+
+

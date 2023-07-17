@@ -1,0 +1,121 @@
+.arrow{
+    color:white;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.heading111{
+    font-size: 36px;
+    font-weight: 600;
+    font-weight: none;
+    position: relative;
+    top:100px;
+}
+
+.box_111 p{
+  margin-top: 100px;
+}
+
+.box_111 button {
+  margin-top: 20px;
+  padding:10px;
+  width:150px;
+  font-weight: 500;
+}
+
+.box_111 h1{
+    text-align: center;
+}
+
+.box_111{
+    text-align: center;
+    margin-top: 0px;
+}
+
+.about_back_image11{
+    margin-top: -20px;
+    height:350px;
+    background: url("../Media/bg_image.jpg")no-repeat center center/cover;
+}
+
+.box_251{
+    width:75%;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  .div_2_col{
+    height:250px;
+    width:350px;
+  }
+
+  .background_color{
+  background-color: hsla(100, 10%, 10%, 0.7);
+
+    height:180px;
+    width:300px;
+    position:relative;
+    top:-200px;
+    left:30px;
+  }
+
+  .background_color h6{
+    text-align: center;
+    position:relative;
+    top:40px;
+    /* left:80px; */
+  }
+
+  .background_color hr{
+    width:240px;
+    color:white;
+    font-weight: bold;
+    position:relative;
+    top:40px;
+    left:30px;
+  }
+
+  .background_color p{
+    position:relative;
+    top:40px;
+    text-align: center;
+  }
+
+  .blog_footer{
+    margin-top: -80px;
+  }
+
+  #carouselExampleCaptions{
+    margin-top: 50px;
+  }
+
+  @media only screen and (max-width:400px){
+    .box_111 h1{
+       position: relative;
+       top:28px;
+    }
+
+    .box_111 p{
+      position: relative;
+      top:-75px;
+    }
+
+    .box_111 button{
+      position: relative;
+      top:-75px;
+    }
+
+
+    .box_251{
+      margin-top: 100px;
+    }
+
+    .div_2_col{
+      position: relative;
+      right:50px;
+    }
+
+    .blog_footer{
+      margin-top: -2050px;
+    }
+  }

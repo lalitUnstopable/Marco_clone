@@ -1,0 +1,21 @@
+.iframe{
+    width:100%;
+}
+
+.iframe iframe{
+   margin-top: 100px;
+   width:60%;
+   height:300px;
+   margin-left: 20%;
+} 
+
+.contact_footer{
+    margin-top: -100px;
+}
+
+@media only screen and (max-width:400px){
+    .contact_footer{
+        margin-top: -2200px;
+    }
+}
+

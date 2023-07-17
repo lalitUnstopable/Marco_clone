@@ -1,0 +1,39 @@
+.gallery_footer{
+    margin-top:-150px;
+}
+
+.slider2{
+    margin-top: -10px;
+}
+
+@media only screen and (max-width:400px){
+    .about_back_image{
+       position: relative;
+       right:0px;
+       left:0px;
+       width: 100%;
+    }
+
+    .div_3{
+        position: relative;
+        right:05px;
+        top:120px;
+
+    }
+
+    .main_row_2{
+        margin-top: 1700px;
+        position: relative;
+        right:5px;
+    }
+
+    .slider2{
+        position: relative;
+        top:-650px;
+    }
+    
+    .gallery_footer{
+        margin-top: -2800px;
+    }
+   
+}
