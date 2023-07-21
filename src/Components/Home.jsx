@@ -371,7 +371,7 @@ const Home = () => {
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
             eiusmod tempor incididunt ut labore et <br></br> dolore magna aliqua.
         </p>
-        <div className="row">
+        <div className="row div_8_row">
         {
           blog_data.map((val)=>{
             return (
