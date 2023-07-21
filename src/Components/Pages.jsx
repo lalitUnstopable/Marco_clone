@@ -57,7 +57,7 @@ const Pages = () => {
             <h4>Sample Buttons</h4>
           </div>
 
-          <div className="col-md-12 div_3rd_btn">
+          <div className="col-md-12 col-6 div_3rd_btn">
             <button type="button" className="btn text-dark bg-white">
               Default
             </button>
@@ -83,7 +83,7 @@ const Pages = () => {
               Disable
             </button>
           </div>
-          <div className="col-md-12 div_3rd_btn">
+          <div className="col-md-12 col-6 div_3rd_btn">
             <button type="button" className="btn text-primary bg-white">
               Default
             </button>
@@ -109,7 +109,7 @@ const Pages = () => {
               Disable
             </button>
           </div>
-          <div style={{ marginTop: "40px" }} className="col-md-12 div_3rd_btn">
+          <div style={{ marginTop: "40px" }} className="col-md-12 col-6 div_3rd_btn">
             <button type="button" className="btn text-dark bg-white">
               Default
             </button>
@@ -135,7 +135,7 @@ const Pages = () => {
               Disable
             </button>
           </div>
-          <div className="col-md-12 div_3rd_btn">
+          <div className="col-md-12 col-6 div_3rd_btn">
             <button type="button" className="btn text-primary bg-white">
               Default
             </button>
@@ -161,7 +161,7 @@ const Pages = () => {
               Disable
             </button>
           </div>
-          <div style={{ marginTop: "40px" }} className="col-md-12 div_3rd_btn">
+          <div style={{ marginTop: "40px" }} className="col-md-12 col-6 div_3rd_btn">
             <button type="button" className="btn text-dark bg-white">
               Default
             </button>
@@ -187,7 +187,7 @@ const Pages = () => {
               Disable
             </button>
           </div>
-          <div className="col-md-12 div_3rd_btn">
+          <div className="col-md-12 col-6 div_3rd_btn">
             <button type="button" className="btn text-primary bg-white">
               Default
             </button>

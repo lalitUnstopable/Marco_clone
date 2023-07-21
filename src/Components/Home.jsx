@@ -231,7 +231,7 @@ const Home = () => {
       {/* 2nd div */}
       <div className="container-fluid cont_1">
         <div className="row">
-          <div className="col-md-6 col-12  col_1">
+          <div className="col-md-6 col-12  col_1"> 
             <h2>About Our Story</h2>
             <p className="p_1">
               Who are in extremely love with eco friendly system. Lorem ipsum
@@ -346,9 +346,9 @@ const Home = () => {
             );
           })}
         </div>
-      </div>
+      </div> 
 
-      <div className="main_row_22">
+       <div className="main_row_22">
         <div className="row row_2">
           {img.map((val) => {
             return (
@@ -361,6 +361,39 @@ const Home = () => {
       </div>
 
       {/* 7th div */}
+
+      
+
+      {/* 8th div */}
+      <div className="div_8">
+        <h1>Latest From Our Blog</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et <br></br> dolore magna aliqua.
+        </p>
+        <div className="row">
+        {
+          blog_data.map((val)=>{
+            return (
+              <div className="col-md-3 col-12 blog">
+                  <div className="card" style={{width: "17 rem"}}>
+                    <img src={val.img} className="card-img-top" alt="..." />
+                    <div className="card-body card_body">
+                      <h5 className="card-title items">{val.date}</h5>
+                      <p className="card-text p_1" >{val.title}</p>
+                      <p className="card-text p_2">{val.content}</p>
+                      <div className="d-flex justify-content-between mt-5">
+                        <p className="items">❤️ 15 Like</p>
+                        <p  className="items">🗨️ 12 Comments</p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            )
+          })
+        }
+         </div>
+      </div>
 
       <div
         id="carouselExampleCaptions"
@@ -469,38 +502,10 @@ const Home = () => {
         </div>
       </div>
 
-      {/* 8th div */}
-      <div className="div_8">
-        <h1>Latest From Our Blog</h1>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et <br></br> dolore magna aliqua.
-        </p>
-        <div className="row">
-        {
-          blog_data.map((val)=>{
-            return (
-              <div className="col-md-3 blog">
-                  <div className="card" style={{width: "17 rem"}}>
-                    <img src={val.img} className="card-img-top" alt="..." />
-                    <div className="card-body card_body">
-                      <h5 className="card-title items">{val.date}</h5>
-                      <p className="card-text p_1" >{val.title}</p>
-                      <p className="card-text p_2">{val.content}</p>
-                      <div className="d-flex justify-content-between mt-5">
-                        <p className="items">❤️ 15 Like</p>
-                        <p  className="items">🗨️ 12 Comments</p>
-                      </div>
-                    </div>
-                  </div>
-              </div>
-            )
-          })
-        }
-         </div>
-      </div>
-
+      <div className="home_footer">
       <Footer />
+
+      </div>
     </>
   );
 };

@@ -267,16 +267,16 @@ const Menu = () => {
 
       {/* 4th div */}
        
-      <div className="div_5">
-        <div className="color_to_image">
-          <div className="container-fluid cont_4">
+      <div className="div_55">
+        <div className="color_to_image11">
+          <div className="container-fluid cont_485">
             <div className="row">
-              <div className="col-md-6 col_4">
+              <div className="col-md-6 col-12 col_485">
                 <h2>
                   Reserve Your Seats to <br></br>Confirm if You Come with{" "}
                   <br></br>Your Family
                 </h2>
-                <p style={{ marginTop: "40px" }}>
+                <p >
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam. Quis nostrud exercitation ullamco
@@ -284,8 +284,8 @@ const Menu = () => {
                 </p>
               </div>
 
-              <div className="col-md-6 col_5">
-                <form action="" className="form">
+              <div className="col-md-6 col-12 col_578">
+                <form action="" className="form1">
                   <input type="text" placeholder="Your Name" />
                   <br />
                   <input type="text" placeholder="Your Email Address" />
@@ -302,7 +302,7 @@ const Menu = () => {
                     <option value="">Event Three</option>
                     <option value="">Event Four</option>
                   </select>
-                  <button className="btn_4">Make Reservation</button>
+                  <button className="btn_478">Make Reservation</button>
                 </form>
               </div>
             </div>

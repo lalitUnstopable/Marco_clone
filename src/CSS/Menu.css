@@ -2,6 +2,86 @@
     margin-top: -150px;
 }
 
+.div_55 {
+    height: 100vh;
+    width: 100%;
+    background: url("../Media/reservation_image.jpg") no-repeat center
+      center/cover;
+    background-size: 100% 100%;
+  }
+  
+  .color_to_image11 {
+    height: 100%;
+    width: 100%;
+    float: left;
+    background-color: hsla(100, 10%, 10%, 0.7);
+  }
+  
+  .cont_4 {
+    height: 550px;
+    width: 80%;
+    margin-top: 100px;
+  }
+  
+  .col_485 {
+    padding: 80px;
+    color: white;
+    font-weight: 700;
+    height: 650px;
+    margin-top: 50px;
+  }
+  
+  .col_485 h2 {
+    font-size: 35px;
+  }
+  
+  .col_485 p {
+    font-weight: 200;
+  }
+  
+  .col_578 {
+    height: 550px;
+  }
+  
+  .form1 {
+    background-color: white;
+    height: 520px;
+    position: relative;
+    top: 30px;
+    left: 60px;
+    width: 80%;
+    text-align: center;
+  }
+  
+  .form1 input {
+    height: 40px;
+    width: 380px;
+    position: relative;
+    top: 80px;
+    margin-top: 20px;
+    padding: 20px;
+  }
+  
+  .form1 select {
+    position: relative;
+    top: 100px;
+    left:92px;
+    height: 48px;
+    width: 380px;
+    padding: 15px;
+    color: grey;
+  }
+  
+  .btn_478 {
+    color: white;
+    padding: 10px 28px;
+    border: none;
+    position: relative;
+    top: 160px;
+    right:185px;
+    background-color: #f42f2c;
+  }
+
 .div_333{
     text-align: center;
     margin-top: 80px;
@@ -22,12 +102,148 @@
        bottom:20px;
     }
 
+   
+    .div_55 {
+    height: 100vh;
+    width: 100%;
+    background: url("../Media/reservation_image.jpg") no-repeat center
+      center/cover;
+    background-size: 100% 100%;
+    margin-top: 350px;
+  }
+  
+  .color_to_image11 {
+    height: 100%;
+    width: 100%;
+    float: left;
+    background-color: hsla(100, 10%, 10%, 0.7);
+  }
+  
+  .cont_485 {
+    height: 550px;
+    width: 80%;
+    margin-top: 100px;
+  }
+  
+  .col_485 {
+    padding: 80px;
+    color: white;
+    font-weight: 700;
+    height: 650px;
+    margin-top: 50px;
+  }
+  
+  .col_485 h2 {
+    font-size: 35px;
+  }
+  
+  .col_485 p {
+    font-weight: 200;
+  }
+  
+  .col_578 {
+    height: 550px;
+    width:100%;
+  }
+  
+  .form1 {
+    height: 520px;
+    position: relative;
+    top: -120px;
+    left: -54px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .form1 input {
+    height: 40px;
+    width: 375px;
+    position: relative;
+    top: 80px;
+    margin-top: 20px;
+    padding: 20px;
+  }
+  
+  .form1 select {
+    position: relative;
+    top: 90px;
+    left:0px;
+    height: 48px;
+    width: 375px;
+    padding: 15px;
+    color: grey;
+  }
+
+    .btn_478{
+        position: relative;
+        left:50px;
+        top:130px;
+    }
+
     .div_5{
        display: none;
     }
 
     .menu_footer{
-        margin-top: -2100px;
+        margin-top:-1680px;
     }
+
+}
+
+@media only screen and (min-width:400px) and (max-width:600px){
+    .div_333{
+        margin-top: 80px;
+    }
+
+    .main_row_2222{
+       position: relative;
+       bottom:20px;
+    }
+
+    .div_5{
+       display: block;
+       position: relative;
+       top:80px;
+    }
+
+    .div_55{
+        margin-top: 120px;
+    }
+
+    .menu_footer{
+        margin-top: 640px;
+    }
+
+    .col_5{
+        margin-top: 120px;
+       
+
+    }
+
+    .col_578{
+        /* margin-right: 80px; */
+        margin-left: -40px;
+    }
+
+    .form{
+        position: relative;
+        left: 300px;
+    }
+
+    .form1 select {
+        position: relative;
+        top: 90px;
+        left:0px;
+        height: 48px;
+        width: 380px;
+        padding: 15px;
+        color: grey;
+      }
+
+      .btn_478{
+        position: relative;
+        left:10px;
+      }
+    
 
 }

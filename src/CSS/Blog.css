@@ -90,6 +90,8 @@
   }
 
   @media only screen and (max-width:400px){
+  
+
     .box_111 h1{
        position: relative;
        top:28px;
@@ -117,5 +119,44 @@
 
     .blog_footer{
       margin-top: -2050px;
+    }
+  }
+
+  @media only screen and (min-width:400px) and (max-width:600px){
+    .about_back_image11{
+      margin-top: -20px;
+      height:450px;
+      background: url("../Media/bg_image.jpg")no-repeat center center/cover;
+  }
+
+  
+    .box_111 h1{
+       position: relative;
+       top:55px;
+    }
+
+    .box_111 p{
+      position: relative;
+      top:-15px;
+    }
+
+    .box_111 button{
+      position: relative;
+      top:5px;
+    }
+
+
+    .box_251{
+      margin-top: 100px;
+      margin-left: 110px;
+    }
+
+    .div_2_col{
+      position: relative;
+      right:50px;
+    }
+
+    .blog_footer{
+      margin-top: 150px;
     }
   }

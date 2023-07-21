@@ -229,7 +229,7 @@ const Gallery = () => {
 
       {/* 2nd div */}
 
-      <div className="container-fluid div_3" style={{marginTop:"-100px"}}>
+      <div className="container-fluid div_398">
         <h2>Food and Customer Gallery</h2>
         <p className="p_2">
           Who are in extremely love with eco friendly system.
@@ -245,8 +245,8 @@ const Gallery = () => {
         </div>
       </div>
 
-      <div className="main_row_2">
-        <div className="row row_2">
+      <div className="main_row_298">
+        <div className="row row_298">
           {img.map((val) => {
             return (
               <div className="col-md-4 col_6">
@@ -261,7 +261,7 @@ const Gallery = () => {
 
       <div
         id="carouselExampleCaptions"
-        className="carousel slide slider2"
+        className="carousel slide slider212"
         data-bs-ride="carousel"
       >
         <div className="carousel-indicators Indicators">
