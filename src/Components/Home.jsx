@@ -233,7 +233,7 @@ const Home = () => {
         <div className="row">
           <div className="col-md-6 col-12  col_1"> 
             <h2>About Our Story</h2>
-            <p className="p_1">
+            <p >
               Who are in extremely love with eco friendly system. Lorem ipsum
               dolor <br></br> sit amet, consectetur adipisicing elit, sed do
               eiusmod tempor<br></br>incididunt ut labore et dolore magna
@@ -252,7 +252,7 @@ const Home = () => {
 
        <div className="container-fluid div_3">
         <h2>What kind of Foods we serve for you</h2>
-        <p className="p_2">
+        <p className="p_22">
           Who are in extremely love with eco friendly system.
         </p>
         <div className="row row_1">
@@ -381,7 +381,7 @@ const Home = () => {
                     <div className="card-body card_body">
                       <h5 className="card-title items">{val.date}</h5>
                       <p className="card-text p_1" >{val.title}</p>
-                      <p className="card-text p_2">{val.content}</p>
+                      <p className="card-text p_21">{val.content}</p>
                       <div className="d-flex justify-content-between mt-5">
                         <p className="items">❤️ 15 Like</p>
                         <p  className="items">🗨️ 12 Comments</p>

@@ -45,10 +45,16 @@
     padding-top: 40px;
   }
 
+  .col_21 p{
+    color:black;
+    margin-top: 15px;
+  }
+
 .col_22 { 
     height: 450px;
     width: 30%;
     position: relative;
+    top:60px;
     left:60px;
     padding:20px;
     background: url("../Media/about-img.jpg") no-repeat center center/cover;
@@ -57,11 +63,11 @@
 
 .div_81 {
     height: 450px;
-    width: 80%;
+    width: 85%;
     margin: auto;
     text-align:  center;
     padding: 50px;
-    margin-top: -20px;
+    margin-top: 20px;
   }
   
   .div_81 h1 {
@@ -83,9 +89,11 @@
     width:500px;
     border:none;
     height:480px;
-    margin-left: 70px;
+    margin-left: 50px;
     margin-top: 50px;
   }
+
+ 
   
   .card_body{
    text-align: left;  
@@ -108,7 +116,7 @@
     font-weight: bold;
   }
   
-  .card_body .p_2{
+  .card_body p{
     margin-top: 10px;
     text-align:left ;
     font-weight: bold;
@@ -134,6 +142,7 @@
 
   .about_footer{
     margin-top:-50px;
+   
   }
 
   @media only screen and (max-width:400px){

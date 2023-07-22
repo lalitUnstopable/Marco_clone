@@ -2,6 +2,10 @@
     margin-top: -150px;
 }
 
+.row_157{
+    margin-top: 100px;
+     }
+
 .div_55 {
     height: 100vh;
     width: 100%;
@@ -37,10 +41,13 @@
   
   .col_485 p {
     font-weight: 200;
+    font-size: 20px;
+    margin-top: 100px;
   }
   
   .col_578 {
     height: 550px;
+    margin-top: 50px;
   }
   
   .form1 {
@@ -92,14 +99,25 @@
     margin-top: 40px;
 }
 
-@media only screen and (max-width:400px){
+@media only screen and (min-width:300px)  and  (max-width:400px){
     .div_333{
         margin-top: 80px;
+        position: relative;
+        left:-20px;
+        width:300px;
     }
 
+    .div_333 p{
+        margin-left: 10px;
+    }
+
+    
+
     .main_row_2222{
+       width:50px;
        position: relative;
        bottom:20px;
+       background-color: #f42f2c;
     }
 
    
@@ -109,7 +127,7 @@
     background: url("../Media/reservation_image.jpg") no-repeat center
       center/cover;
     background-size: 100% 100%;
-    margin-top: 350px;
+    margin-top: 150px;
   }
   
   .color_to_image11 {
@@ -127,6 +145,7 @@
   
   .col_485 {
     padding: 80px;
+    width:250px;
     color: white;
     font-weight: 700;
     height: 650px;
@@ -135,15 +154,26 @@
   
   .col_485 h2 {
     font-size: 35px;
+    width:250px;
+    position: relative;
+    left:-50px;
+    top:-150px;
+    
   }
   
   .col_485 p {
     font-weight: 200;
+    width:250px;
+    position: relative;
+    left:-50px;
+    top:-100px;
+
   }
   
   .col_578 {
     height: 550px;
     width:100%;
+    margin-top: 100px;
   }
   
   .form1 {
@@ -157,19 +187,20 @@
   
   .form1 input {
     height: 40px;
-    width: 375px;
+    width: 255px;
     position: relative;
     top: 80px;
     margin-top: 20px;
     padding: 20px;
+    left:20px;
   }
   
   .form1 select {
     position: relative;
     top: 90px;
-    left:0px;
+    left:20px;
     height: 48px;
-    width: 375px;
+    width: 255px;
     padding: 15px;
     color: grey;
   }
@@ -185,7 +216,7 @@
     }
 
     .menu_footer{
-        margin-top:-1680px;
+        margin-top:-1480px;
     }
 
 }

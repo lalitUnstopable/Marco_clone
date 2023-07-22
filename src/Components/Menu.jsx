@@ -235,7 +235,7 @@ const Menu = () => {
         <p className="p_2">
           Who are in extremely love with eco friendly system.
         </p>
-        <div className="row row_1">
+        <div className="row row_157">
           {obj.map((val) => {
             return (
               <div className="col-md-2 items" id="red" onClick={() => toggle(val)}>

@@ -41,7 +41,7 @@
 .box_251{
     width:75%;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 150px;
   }
 
   .div_2_col{
@@ -86,10 +86,10 @@
   }
 
   #carouselExampleCaptions{
-    margin-top: 50px;
+    margin-top: -20px;
   }
 
-  @media only screen and (max-width:400px){
+  @media only screen and (min-width:300px) and (max-width:400px){
   
 
     .box_111 h1{
@@ -114,11 +114,13 @@
 
     .div_2_col{
       position: relative;
-      right:50px;
+      right:75px;
+      width:150px;
+      
     }
 
     .blog_footer{
-      margin-top: -2050px;
+      margin-top: -2150px;
     }
   }
 

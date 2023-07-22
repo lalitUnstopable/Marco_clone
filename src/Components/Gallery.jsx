@@ -234,7 +234,7 @@ const Gallery = () => {
         <p className="p_2">
           Who are in extremely love with eco friendly system.
         </p>
-        <div className="row row_1">
+        <div className="row row_107">
           {obj.map((val) => {
             return (
               <div className="col-md-2 items" id="red" onClick={() => toggle(val)}>
@@ -249,7 +249,7 @@ const Gallery = () => {
         <div className="row row_298">
           {img.map((val) => {
             return (
-              <div className="col-md-4 col_6">
+              <div className="col-md-4 col_680">
                 <img src={val.img} alt="" />
               </div>
             );
